@@ -1,1 +1,7 @@
-
+To start, take a partial screenshot of part of a tab you have open. You just need the color of it, and it shouldn't be the tab you are on, just a different tab open in the browser. (If you are using the traditional white/light grey theme, you don't need this.)
+Step 1: Go to any website and view page source, then ctrl+f and download the favicon.
+Step 2: Go to a photo editor, (I suggest Pixlr X) then open up the favicon you downloaded.
+Step 3: Open up the partial screenshot and color pick the color of it. use that color and draw over the entire image. Save that, then go back to the tab or your fork. Name the saved image favicon.png, or the png can be replaced with another still picture file type like jpg or ico.
+Step 4: Save it, then go to your forked version of this repo, and delete the favicon.png and put in your finished favicon.whatever.
+Step 5: Go to server.js and edit it and find on the file where it says favicon.png. Replace that with the name of your file and save it.
+Now, if you make a heroku app from your forked repo, it'll look like it has no favicon.
