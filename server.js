@@ -123,7 +123,7 @@ function listFile(file) { handler[file] = staticFileHandler(file); }
 // list of files on the server
 handler["index.html"] 	= root;
 handler["socket.io.js"] = staticFileHandler("node_modules/socket.io-client/socket.io.js");
-listFile("favicon.pxd");
+listFile("favicon.jpg");
 listFile("server.js");
 listFile("game.js");
 listFile("tedge.js");
